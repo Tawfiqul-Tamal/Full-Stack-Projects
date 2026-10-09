@@ -24,6 +24,8 @@ I'm **Md. Tawfiqul Islam Tamal**, a Computer Science & Engineering student focus
 - Sharing types between frontend and backend to catch bugs early
 - Writing tests and CI pipelines so every project stays reliable
 
+![TaskPulse dashboard](docs/taskpulse-dashboard.png)
+
 ## Projects
 
 | Project | Description | Stack | Status |
