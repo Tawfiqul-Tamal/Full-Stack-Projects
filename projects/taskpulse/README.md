@@ -14,8 +14,7 @@
 
 </div>
 
-<!-- Add a screenshot after you run the app: docs/dashboard.png -->
-<!-- ![TaskPulse dashboard](docs/dashboard.png) -->
+![TaskPulse dashboard](../../docs/taskpulse-dashboard.png)
 
 ## Overview
 
