@@ -1,0 +1,19 @@
+{
+  "name": "taskpulse",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Full-stack task analytics dashboard built with Next.js, Express and TypeScript",
+  "workspaces": ["apps/*"],
+  "scripts": {
+    "dev": "concurrently -n api,web -c cyan,magenta \"npm run dev -w apps/api\" \"npm run dev -w apps/web\"",
+    "dev:api": "npm run dev -w apps/api",
+    "dev:web": "npm run dev -w apps/web",
+    "build": "npm run build -w apps/api && npm run build -w apps/web",
+    "test": "npm run test -w apps/api",
+    "typecheck": "npm run typecheck -w apps/api && npm run typecheck -w apps/web"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "engines": { "node": ">=18.18" }
+}
