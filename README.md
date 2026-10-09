@@ -46,7 +46,7 @@ I'm **Md. Tawfiqul Islam Tamal**, a Computer Science & Engineering student focus
 ## Repository structure
 
 ```
-fullstack-projects/
+Full-Stack-Projects/
 ├── projects/
 │   ├── taskpulse/            Task analytics dashboard
 │   │   ├── apps/api/         Express + TypeScript API
