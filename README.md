@@ -15,7 +15,7 @@
 
 ## About
 
-I'm a Computer Science & Engineering student focused on building complete web applications, from the typed REST API to the interactive UI. This repository is my workspace for those projects. Each one lives in its own folder with its own README, setup steps and tests, so you can open any project and run it in a few minutes.
+I'm **Md. Tawfiqul Islam Tamal**, a Computer Science & Engineering student focused on building complete web applications, from the typed REST API to the interactive UI. This repository is my workspace for those projects. Each one lives in its own folder with its own README, setup steps and tests, so you can open any project and run it in a few minutes.
 
 **What I'm practising here**
 
@@ -64,7 +64,7 @@ fullstack-projects/
 Every project is self-contained. Pick one and follow its README, or use this quick start:
 
 ```bash
-git clone https://github.com/<your-username>/fullstack-projects.git
+git clone https://github.com/Tawfiqul-Tamal/fullstack-projects.git
 cd fullstack-projects/projects/taskpulse
 npm install
 npm run dev
@@ -91,12 +91,20 @@ All projects follow the same standards so the codebase stays consistent:
 - [ ] Add Docker Compose files for each project
 - [ ] Add end-to-end tests with Playwright
 
-## Contact
+## Author
 
-- GitHub: [@your-username](https://github.com/your-username)
-- LinkedIn: [your-name](https://linkedin.com/in/your-name)
-- Email: your.email@example.com
+**Md. Tawfiqul Islam Tamal**
+
+- GitHub: [@Tawfiqul-Tamal](https://github.com/Tawfiqul-Tamal)
+- LinkedIn: [Md. Tawfiqul Islam Tamal](https://www.linkedin.com/in/md-tawfiqul-islam-tamal-793bb429a/)
+- Email: [tamaltawfiqul@gmail.com](mailto:tamaltawfiqul@gmail.com)
+
+## Copyright
+
+Copyright &copy; 2026 Md. Tawfiqul Islam Tamal. All rights reserved under the terms of the MIT License.
+
+Created by Md. Tawfiqul Islam Tamal.
 
 ## License
 
-Released under the [MIT License](LICENSE).
+Released under the [MIT License](LICENSE). You are free to use, copy and modify the code, provided the copyright notice is kept.
