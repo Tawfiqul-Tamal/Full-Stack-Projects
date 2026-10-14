@@ -8,7 +8,7 @@
 ![Node.js](https://img.shields.io/badge/Node.js-18%2B-5FA04E?logo=nodedotjs&logoColor=white)
 ![Express](https://img.shields.io/badge/Express.js-4-404D59?logo=express&logoColor=white)
 ![Next.js](https://img.shields.io/badge/Next.js-14-000000?logo=nextdotjs&logoColor=white)
-![Projects](https://img.shields.io/badge/projects-1-6366F1)
+![Projects](https://img.shields.io/badge/projects-2-6366F1)
 ![License](https://img.shields.io/badge/license-MIT-22D3EE)
 
 </div>
@@ -31,6 +31,7 @@ I'm **Md. Tawfiqul Islam Tamal**, a Computer Science & Engineering student focus
 | Project | Description | Stack | Status |
 | --- | --- | --- | --- |
 | [TaskPulse](projects/taskpulse) | Task analytics dashboard with KPI cards, charts and a board | Next.js, Express, TypeScript, Tailwind, Recharts | Complete |
+| [LinkLens](projects/linklens) | Link shortener with JWT auth and click analytics dashboard | Next.js, Express, TypeScript, JWT, Recharts | Complete |
 | _Next project_ | _Coming soon_ | | Planned |
 
 > Add a row to this table every time you add a project. Link to its folder and keep the description to one line.
@@ -42,6 +43,7 @@ I'm **Md. Tawfiqul Islam Tamal**, a Computer Science & Engineering student focus
 | Language | TypeScript |
 | Frontend | Next.js (App Router), React, Tailwind CSS, Recharts |
 | Backend | Node.js, Express.js, Zod |
+| Auth | JWT, bcrypt |
 | Testing | Vitest, Supertest |
 | Tooling | npm workspaces, GitHub Actions, Git |
 
@@ -52,6 +54,10 @@ Full-Stack-Projects/
 ├── projects/
 │   ├── taskpulse/            Task analytics dashboard
 │   │   ├── apps/api/         Express + TypeScript API
+│   │   ├── apps/web/         Next.js frontend
+│   │   └── README.md
+│   ├── linklens/             Link shortener with click analytics
+│   │   ├── apps/api/         Express + TypeScript API (JWT auth)
 │   │   ├── apps/web/         Next.js frontend
 │   │   └── README.md
 │   └── <next-project>/
@@ -66,8 +72,8 @@ Full-Stack-Projects/
 Every project is self-contained. Pick one and follow its README, or use this quick start:
 
 ```bash
-git clone https://github.com/Tawfiqul-Tamal/fullstack-projects.git
-cd fullstack-projects/projects/taskpulse
+git clone https://github.com/Tawfiqul-Tamal/Full-Stack-Projects.git
+cd Full-Stack-Projects/projects/taskpulse
 npm install
 npm run dev
 ```
@@ -88,7 +94,7 @@ All projects follow the same standards so the codebase stays consistent:
 ## Roadmap
 
 - [ ] Add a project with PostgreSQL and Prisma
-- [ ] Add a project with JWT authentication
+- [x] Add a project with JWT authentication
 - [ ] Add a real-time project with WebSockets
 - [ ] Add Docker Compose files for each project
 - [ ] Add end-to-end tests with Playwright
