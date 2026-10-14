@@ -13,8 +13,7 @@
 
 </div>
 
-<!-- Add the screenshot to docs/linklens-dashboard.png, then uncomment the next line -->
-<!-- ![LinkLens dashboard](../../docs/linklens-dashboard.png) -->
+![LinkLens dashboard](../../docs/linklens-dashboard.png)
 
 ## Overview
 
